@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.form input,
+.form button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button {
+  background-color: aquamarine;
+  color: black;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: bisque;
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.name-elem,
+.surname-elem,
+.email-elem {
+  padding-bottom: 15px;
+  color: rgb(0, 0, 135);
+}
+.photo-elem {
+  padding-top: 15px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}

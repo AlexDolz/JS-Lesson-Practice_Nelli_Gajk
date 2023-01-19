@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.form input,
+.form button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button {
+  background-color: aquamarine;
+  color: black;
+}
+
+.card {
+  margin-top: 10px;
+  background-color: bisque;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.p-elem {
+  padding-top: 20px;
+}
+.img-elem {
+  padding-top: 20px;
+}
